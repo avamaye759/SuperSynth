@@ -332,28 +332,37 @@
             // synthButton
             // 
             this.synthButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.synthButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.synthButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.synthButton.Location = new System.Drawing.Point(195, 69);
             this.synthButton.Name = "synthButton";
             this.synthButton.Size = new System.Drawing.Size(56, 25);
             this.synthButton.TabIndex = 26;
+            this.synthButton.Text = "SYNTH";
             this.synthButton.UseVisualStyleBackColor = true;
             // 
             // chipButton
             // 
             this.chipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chipButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chipButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.chipButton.Location = new System.Drawing.Point(284, 69);
             this.chipButton.Name = "chipButton";
             this.chipButton.Size = new System.Drawing.Size(56, 25);
             this.chipButton.TabIndex = 27;
+            this.chipButton.Text = "CHIPTUNE";
             this.chipButton.UseVisualStyleBackColor = true;
             // 
             // drumButton
             // 
             this.drumButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.drumButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drumButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.drumButton.Location = new System.Drawing.Point(373, 69);
             this.drumButton.Name = "drumButton";
             this.drumButton.Size = new System.Drawing.Size(56, 25);
             this.drumButton.TabIndex = 28;
+            this.drumButton.Text = "DRUM";
             this.drumButton.UseVisualStyleBackColor = true;
             // 
             // powerInd
