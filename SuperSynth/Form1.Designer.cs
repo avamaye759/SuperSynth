@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pianoBase = new System.Windows.Forms.Label();
             this.c1Key = new System.Windows.Forms.Label();
             this.d1Key = new System.Windows.Forms.Label();
@@ -59,6 +60,8 @@
             this.drumButton = new System.Windows.Forms.Button();
             this.powerInd = new System.Windows.Forms.Label();
             this.drumInd = new System.Windows.Forms.Label();
+            this.drumLoop = new System.Windows.Forms.Timer(this.components);
+            this.powerLoop = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // pianoBase
@@ -328,9 +331,11 @@
             this.powerButton.Size = new System.Drawing.Size(37, 18);
             this.powerButton.TabIndex = 25;
             this.powerButton.UseVisualStyleBackColor = true;
+            this.powerButton.Click += new System.EventHandler(this.powerButton_Click);
             // 
             // synthButton
             // 
+            this.synthButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.synthButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.synthButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.synthButton.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -343,6 +348,7 @@
             // 
             // chipButton
             // 
+            this.chipButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.chipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chipButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chipButton.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -355,6 +361,7 @@
             // 
             // drumButton
             // 
+            this.drumButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.drumButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.drumButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.drumButton.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -364,6 +371,7 @@
             this.drumButton.TabIndex = 28;
             this.drumButton.Text = "DRUM";
             this.drumButton.UseVisualStyleBackColor = true;
+            this.drumButton.Click += new System.EventHandler(this.drumButton_Click);
             // 
             // powerInd
             // 
@@ -381,12 +389,20 @@
             this.drumInd.Size = new System.Drawing.Size(10, 10);
             this.drumInd.TabIndex = 30;
             // 
+            // drumLoop
+            // 
+            this.drumLoop.Tick += new System.EventHandler(this.drumLoop_Tick);
+            // 
+            // powerLoop
+            // 
+            this.powerLoop.Tick += new System.EventHandler(this.powerLoop_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 367);
             this.Controls.Add(this.drumInd);
             this.Controls.Add(this.powerInd);
             this.Controls.Add(this.drumButton);
@@ -419,7 +435,7 @@
             this.Controls.Add(this.f1Key);
             this.Controls.Add(this.pianoBase);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SUPERSYNTH 3000";
             this.ResumeLayout(false);
 
         }
@@ -457,6 +473,8 @@
         private System.Windows.Forms.Button drumButton;
         private System.Windows.Forms.Label powerInd;
         private System.Windows.Forms.Label drumInd;
+        private System.Windows.Forms.Timer drumLoop;
+        private System.Windows.Forms.Timer powerLoop;
     }
 }
 
