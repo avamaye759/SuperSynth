@@ -21,83 +21,56 @@ namespace SuperSynth
             InitializeComponent();
             
         }
-
-        class Program
-        {
-            
-            static int noteDuration = 1000;
-            static string notes;
-            static string durations;
-            static List<int> final_freqs;
-            static List<int> final_durations;
-
+        
             private void Form1_KeyDown(object sender, KeyEventArgs e)
             {
                 switch (e.KeyCode)
                 {
                     case Keys.A:
-                        final_freqs.Add(262); //c1
-                        break;
-                    case Keys.Down:
-                        final_freqs.Add(294); //d1
-                        break;
-                    case Keys.W:
-                        wDown = true;
+                        //c1
                         break;
                     case Keys.S:
-                        sDown = true;
+                        //d1
+                        break;
+                    case Keys.D:
+                        //e1
+                        break;
+                    case Keys.F:
+                        //f1
+                        break;
+                    case Keys.G:
+                        //g1
+                        break;
+                    case Keys.H:
+                        //a2
+                        break;
+                    case Keys.J:
+                        //b2
+                        break;
+                    case Keys.K:
+                        //c2
+                        break;
+                    case Keys.L:
+                        //d2
+                        break;
+                    case Keys.Z:
+                        //e2
+                        break;
+                    case Keys.X:
+                        //f2
+                        break;
+                    case Keys.C:
+                        //g2
+                        break;
+                    case Keys.V:
+                        //a3
+                        break;
+                    case Keys.B:
+                        //b3
                         break;
                 }
             }
-
-            static void ParseStaff()
-            {
-                
-                foreach (char note in notes)
-                {
-                    switch (note)
-                    {
-                        case 'c':
-                            final_freqs.Add(262);
-                            break;
-                        case 'd':
-                            final_freqs.Add(294);
-                            break;
-                        case 'e':
-                            final_freqs.Add(330);
-                            break;
-                        case 'f':
-                            final_freqs.Add(349);
-                            break;
-                        case 'g':
-                            final_freqs.Add(392);
-                            break;
-                        case 'a':
-                            final_freqs.Add(440);
-                            break;
-                        case 'b':
-                            final_freqs.Add(493);
-                            break;
-                        default:
-                            break;
-                    }
-                }
-            }
-
-            static void Play()
-            {
-                for (int i = 0; i < final_freqs.Count; i++)
-                {
-                    Console.Beep(final_freqs[i], final_durations[i]);
-                }
-            }
-
-            static void Main(string[] args)
-            {
-                ParseStaff();
-                Play();
-            }
-        }
+        
 
         private void powerButton_Click(object sender, EventArgs e)
         {
