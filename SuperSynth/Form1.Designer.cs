@@ -391,6 +391,7 @@
             // 
             // drumLoop
             // 
+            this.drumLoop.Interval = 1;
             this.drumLoop.Tick += new System.EventHandler(this.drumLoop_Tick);
             // 
             // powerLoop
