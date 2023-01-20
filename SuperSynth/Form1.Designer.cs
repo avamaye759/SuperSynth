@@ -66,7 +66,7 @@
             // 
             // pianoBase
             // 
-            this.pianoBase.BackColor = System.Drawing.Color.SpringGreen;
+            this.pianoBase.BackColor = System.Drawing.Color.OrangeRed;
             this.pianoBase.Location = new System.Drawing.Point(61, 32);
             this.pianoBase.Name = "pianoBase";
             this.pianoBase.Size = new System.Drawing.Size(679, 288);
@@ -82,6 +82,7 @@
             this.c1Key.Name = "c1Key";
             this.c1Key.Size = new System.Drawing.Size(44, 196);
             this.c1Key.TabIndex = 1;
+            this.c1Key.Click += new System.EventHandler(this.c1Key_Click);
             // 
             // d1Key
             // 
@@ -92,6 +93,7 @@
             this.d1Key.Name = "d1Key";
             this.d1Key.Size = new System.Drawing.Size(44, 196);
             this.d1Key.TabIndex = 2;
+            this.d1Key.Click += new System.EventHandler(this.d1Key_Click);
             // 
             // e1Key
             // 
@@ -102,6 +104,7 @@
             this.e1Key.Name = "e1Key";
             this.e1Key.Size = new System.Drawing.Size(44, 196);
             this.e1Key.TabIndex = 3;
+            this.e1Key.Click += new System.EventHandler(this.e1Key_Click);
             // 
             // f1Key
             // 
@@ -112,6 +115,7 @@
             this.f1Key.Name = "f1Key";
             this.f1Key.Size = new System.Drawing.Size(44, 196);
             this.f1Key.TabIndex = 4;
+            this.f1Key.Click += new System.EventHandler(this.f1Key_Click);
             // 
             // g1Key
             // 
@@ -122,6 +126,7 @@
             this.g1Key.Name = "g1Key";
             this.g1Key.Size = new System.Drawing.Size(44, 196);
             this.g1Key.TabIndex = 5;
+            this.g1Key.Click += new System.EventHandler(this.g1Key_Click);
             // 
             // a2Key
             // 
@@ -132,6 +137,7 @@
             this.a2Key.Name = "a2Key";
             this.a2Key.Size = new System.Drawing.Size(44, 196);
             this.a2Key.TabIndex = 6;
+            this.a2Key.Click += new System.EventHandler(this.a2Key_Click);
             // 
             // b2Key
             // 
@@ -142,6 +148,7 @@
             this.b2Key.Name = "b2Key";
             this.b2Key.Size = new System.Drawing.Size(44, 196);
             this.b2Key.TabIndex = 7;
+            this.b2Key.Click += new System.EventHandler(this.b2Key_Click);
             // 
             // c2Key
             // 
@@ -152,6 +159,7 @@
             this.c2Key.Name = "c2Key";
             this.c2Key.Size = new System.Drawing.Size(44, 196);
             this.c2Key.TabIndex = 8;
+            this.c2Key.Click += new System.EventHandler(this.c2Key_Click);
             // 
             // d2Key
             // 
@@ -162,6 +170,7 @@
             this.d2Key.Name = "d2Key";
             this.d2Key.Size = new System.Drawing.Size(44, 196);
             this.d2Key.TabIndex = 9;
+            this.d2Key.Click += new System.EventHandler(this.d2Key_Click);
             // 
             // e2Key
             // 
@@ -172,6 +181,7 @@
             this.e2Key.Name = "e2Key";
             this.e2Key.Size = new System.Drawing.Size(44, 196);
             this.e2Key.TabIndex = 10;
+            this.e2Key.Click += new System.EventHandler(this.e2Key_Click);
             // 
             // f2Key
             // 
@@ -182,6 +192,7 @@
             this.f2Key.Name = "f2Key";
             this.f2Key.Size = new System.Drawing.Size(44, 196);
             this.f2Key.TabIndex = 11;
+            this.f2Key.Click += new System.EventHandler(this.f2Key_Click);
             // 
             // g2Key
             // 
@@ -192,6 +203,7 @@
             this.g2Key.Name = "g2Key";
             this.g2Key.Size = new System.Drawing.Size(44, 196);
             this.g2Key.TabIndex = 12;
+            this.g2Key.Click += new System.EventHandler(this.g2Key_Click);
             // 
             // a3Key
             // 
@@ -202,6 +214,7 @@
             this.a3Key.Name = "a3Key";
             this.a3Key.Size = new System.Drawing.Size(44, 196);
             this.a3Key.TabIndex = 13;
+            this.a3Key.Click += new System.EventHandler(this.a3Key_Click);
             // 
             // b3Key
             // 
@@ -212,6 +225,7 @@
             this.b3Key.Name = "b3Key";
             this.b3Key.Size = new System.Drawing.Size(44, 196);
             this.b3Key.TabIndex = 14;
+            this.b3Key.Click += new System.EventHandler(this.b3Key_Click);
             // 
             // c1SKey
             // 
@@ -437,6 +451,7 @@
             this.Controls.Add(this.pianoBase);
             this.Name = "Form1";
             this.Text = "SUPERSYNTH 3000";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
 
         }

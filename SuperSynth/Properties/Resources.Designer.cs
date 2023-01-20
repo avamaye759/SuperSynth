@@ -61,142 +61,218 @@ namespace SuperSynth.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] a4 {
+        internal static System.IO.UnmanagedMemoryStream a_4 {
             get {
-                object obj = ResourceManager.GetObject("a4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("a_4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] a5 {
+        internal static System.IO.UnmanagedMemoryStream a_5 {
             get {
-                object obj = ResourceManager.GetObject("a5", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("a_5", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] b4 {
+        internal static System.IO.UnmanagedMemoryStream a4 {
             get {
-                object obj = ResourceManager.GetObject("b4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("a4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] b5 {
+        internal static System.IO.UnmanagedMemoryStream a5 {
             get {
-                object obj = ResourceManager.GetObject("b5", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("a5", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] c3 {
+        internal static System.IO.UnmanagedMemoryStream b4 {
             get {
-                object obj = ResourceManager.GetObject("c3", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("b4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] c4 {
+        internal static System.IO.UnmanagedMemoryStream b5 {
             get {
-                object obj = ResourceManager.GetObject("c4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("b5", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] d3 {
+        internal static System.IO.UnmanagedMemoryStream c_3 {
             get {
-                object obj = ResourceManager.GetObject("d3", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("c_3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] d4 {
+        internal static System.IO.UnmanagedMemoryStream c_4 {
             get {
-                object obj = ResourceManager.GetObject("d4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("c_4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] e3 {
+        internal static System.IO.UnmanagedMemoryStream c3 {
             get {
-                object obj = ResourceManager.GetObject("e3", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("c3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] e4 {
+        internal static System.IO.UnmanagedMemoryStream c4 {
             get {
-                object obj = ResourceManager.GetObject("e4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("c4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] f3 {
+        internal static System.IO.UnmanagedMemoryStream d_3 {
             get {
-                object obj = ResourceManager.GetObject("f3", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("d_3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] f4 {
+        internal static System.IO.UnmanagedMemoryStream d_4 {
             get {
-                object obj = ResourceManager.GetObject("f4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("d_4", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] g3 {
+        internal static System.IO.UnmanagedMemoryStream d3 {
             get {
-                object obj = ResourceManager.GetObject("g3", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("d3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static byte[] g4 {
+        internal static System.IO.UnmanagedMemoryStream d4 {
             get {
-                object obj = ResourceManager.GetObject("g4", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetStream("d4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream e3 {
+            get {
+                return ResourceManager.GetStream("e3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream e4 {
+            get {
+                return ResourceManager.GetStream("e4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream f_3 {
+            get {
+                return ResourceManager.GetStream("f_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream f_4 {
+            get {
+                return ResourceManager.GetStream("f_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream f3 {
+            get {
+                return ResourceManager.GetStream("f3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream f4 {
+            get {
+                return ResourceManager.GetStream("f4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream g_3 {
+            get {
+                return ResourceManager.GetStream("g_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream g_4 {
+            get {
+                return ResourceManager.GetStream("g_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream g3 {
+            get {
+                return ResourceManager.GetStream("g3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream g4 {
+            get {
+                return ResourceManager.GetStream("g4", resourceCulture);
             }
         }
     }
