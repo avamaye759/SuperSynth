@@ -63,24 +63,6 @@ namespace SuperSynth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream a_4 {
-            get {
-                return ResourceManager.GetStream("a_4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream a_5 {
-            get {
-                return ResourceManager.GetStream("a_5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream a4 {
             get {
                 return ResourceManager.GetStream("a4", resourceCulture);
@@ -93,6 +75,24 @@ namespace SuperSynth.Properties {
         internal static System.IO.UnmanagedMemoryStream a5 {
             get {
                 return ResourceManager.GetStream("a5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream as4 {
+            get {
+                return ResourceManager.GetStream("as4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream as5 {
+            get {
+                return ResourceManager.GetStream("as5", resourceCulture);
             }
         }
         
@@ -117,24 +117,6 @@ namespace SuperSynth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream c_3 {
-            get {
-                return ResourceManager.GetStream("c_3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream c_4 {
-            get {
-                return ResourceManager.GetStream("c_4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream c3 {
             get {
                 return ResourceManager.GetStream("c3", resourceCulture);
@@ -153,18 +135,18 @@ namespace SuperSynth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream d_3 {
+        internal static System.IO.UnmanagedMemoryStream cs3 {
             get {
-                return ResourceManager.GetStream("d_3", resourceCulture);
+                return ResourceManager.GetStream("cs3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream d_4 {
+        internal static System.IO.UnmanagedMemoryStream cs4 {
             get {
-                return ResourceManager.GetStream("d_4", resourceCulture);
+                return ResourceManager.GetStream("cs4", resourceCulture);
             }
         }
         
@@ -189,6 +171,24 @@ namespace SuperSynth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ds3 {
+            get {
+                return ResourceManager.GetStream("ds3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ds4 {
+            get {
+                return ResourceManager.GetStream("ds4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream e3 {
             get {
                 return ResourceManager.GetStream("e3", resourceCulture);
@@ -201,24 +201,6 @@ namespace SuperSynth.Properties {
         internal static System.IO.UnmanagedMemoryStream e4 {
             get {
                 return ResourceManager.GetStream("e4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream f_3 {
-            get {
-                return ResourceManager.GetStream("f_3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream f_4 {
-            get {
-                return ResourceManager.GetStream("f_4", resourceCulture);
             }
         }
         
@@ -243,18 +225,18 @@ namespace SuperSynth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream g_3 {
+        internal static System.IO.UnmanagedMemoryStream fs3 {
             get {
-                return ResourceManager.GetStream("g_3", resourceCulture);
+                return ResourceManager.GetStream("fs3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream g_4 {
+        internal static System.IO.UnmanagedMemoryStream fs4 {
             get {
-                return ResourceManager.GetStream("g_4", resourceCulture);
+                return ResourceManager.GetStream("fs4", resourceCulture);
             }
         }
         
@@ -273,6 +255,24 @@ namespace SuperSynth.Properties {
         internal static System.IO.UnmanagedMemoryStream g4 {
             get {
                 return ResourceManager.GetStream("g4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gs3 {
+            get {
+                return ResourceManager.GetStream("gs3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gs4 {
+            get {
+                return ResourceManager.GetStream("gs4", resourceCulture);
             }
         }
     }

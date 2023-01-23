@@ -32,16 +32,16 @@ namespace SuperSynth
         System.Windows.Media.MediaPlayer g2Sound = new System.Windows.Media.MediaPlayer();
         System.Windows.Media.MediaPlayer a3Sound = new System.Windows.Media.MediaPlayer();
         System.Windows.Media.MediaPlayer b3Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer as4Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer as5Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer cs3Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer cs4Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer ds3Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer ds4Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer fs3Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer fs4Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer gs3Sound = new System.Windows.Media.MediaPlayer();
-        System.Windows.Media.MediaPlayer gs4Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer as2Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer as3Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer cs1Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer cs2Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer ds1Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer ds2Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer fs1Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer fs2Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer gs1Sound = new System.Windows.Media.MediaPlayer();
+        System.Windows.Media.MediaPlayer gs2Sound = new System.Windows.Media.MediaPlayer();
 
 
         public Form1()
@@ -62,83 +62,21 @@ namespace SuperSynth
             g2Sound.Open(new Uri(Application.StartupPath + "/Resources/g4.wav"));
             a3Sound.Open(new Uri(Application.StartupPath + "/Resources/a5.wav"));
             b3Sound.Open(new Uri(Application.StartupPath + "/Resources/b5.wav"));
+            as2Sound.Open(new Uri(Application.StartupPath + "/Resources/as4.wav"));
+            as3Sound.Open(new Uri(Application.StartupPath + "/Resources/as5.wav"));
+            cs1Sound.Open(new Uri(Application.StartupPath + "/Resources/cs3.wav"));
+            cs2Sound.Open(new Uri(Application.StartupPath + "/Resources/cs4.wav"));
+            ds1Sound.Open(new Uri(Application.StartupPath + "/Resources/ds3.wav"));
+            ds2Sound.Open(new Uri(Application.StartupPath + "/Resources/ds4.wav"));
+            fs1Sound.Open(new Uri(Application.StartupPath + "/Resources/fs3.wav"));
+            fs2Sound.Open(new Uri(Application.StartupPath + "/Resources/fs4.wav"));
+            gs1Sound.Open(new Uri(Application.StartupPath + "/Resources/gs3.wav"));
+            gs2Sound.Open(new Uri(Application.StartupPath + "/Resources/gs4.wav"));
         }
 
         private void Form1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
-            switch (e.KeyCode)
-            {
-                case Keys.A:
-                    //c1
-                    c1Sound.Stop();
-                    c1Sound.Play();
-                    break;
-                case Keys.S:
-                    //d1
-                    d1Sound.Stop();
-                    d1Sound.Play();
-                    break;
-                case Keys.D:
-                    //e1
-                    e1Sound.Stop();
-                    e1Sound.Play();
-                    break;
-                case Keys.F:
-                    //f1
-                    f1Sound.Stop();
-                    f1Sound.Play();
-                    break;
-                case Keys.G:
-                    //g1
-                    g1Sound.Stop();
-                    g1Sound.Play();
-                    break;
-                case Keys.H:
-                    //a2
-                    a2Sound.Stop();
-                    a2Sound.Play();
-                    break;
-                case Keys.J:
-                    //b2
-                    b2Sound.Stop();
-                    b2Sound.Play();
-                    break;
-                case Keys.K:
-                    //c2
-                    c2Sound.Stop();
-                    c2Sound.Play();
-                    break;
-                case Keys.L:
-                    //d2
-                    d2Sound.Stop();
-                    d2Sound.Play();
-                    break;
-                case Keys.Z:
-                    //e2
-                    e2Sound.Stop();
-                    e2Sound.Play();
-                    break;
-                case Keys.X:
-                    //f2
-                    f2Sound.Stop();
-                    f2Sound.Play();
-                    break;
-                case Keys.C:
-                    //g2
-                    g2Sound.Stop();
-                    g2Sound.Play();
-                    break;
-                case Keys.V:
-                    //a3
-                    a3Sound.Stop();
-                    a3Sound.Play();
-                    break;
-                case Keys.B:
-                    //b3
-                    b3Sound.Stop();
-                    b3Sound.Play();
-                    break;
-            }
+
         }
 
         private void powerButton_Click(object sender, EventArgs e)
@@ -265,6 +203,66 @@ namespace SuperSynth
         {
             b3Sound.Stop();
             b3Sound.Play();
+        }
+
+        private void c1SKey_Click(object sender, EventArgs e)
+        {
+            cs1Sound.Stop();
+            cs1Sound.Play();
+        }
+
+        private void d1SKey_Click(object sender, EventArgs e)
+        {
+            ds1Sound.Stop();
+            ds1Sound.Play();
+        }
+
+        private void f1SKey_Click(object sender, EventArgs e)
+        {
+            fs1Sound.Stop();
+            fs1Sound.Play();
+        }
+
+        private void g1SKey_Click(object sender, EventArgs e)
+        {
+            gs1Sound.Stop();
+            gs1Sound.Play();
+        }
+
+        private void a2SKey_Click(object sender, EventArgs e)
+        {
+            as2Sound.Stop();
+            as2Sound.Play();
+        }
+
+        private void c2SKey_Click(object sender, EventArgs e)
+        {
+            cs2Sound.Stop();
+            cs2Sound.Play();
+        }
+
+        private void d2SKey_Click(object sender, EventArgs e)
+        {
+            ds2Sound.Stop();
+            ds2Sound.Play();
+        }
+
+        private void f2SKey_Click(object sender, EventArgs e)
+        {
+            fs2Sound.Stop();
+            fs2Sound.Play();
+        }
+
+        private void g2SKey_Click(object sender, EventArgs e)
+        {
+            gs2Sound.Stop();
+            gs2Sound.Play();
+        }
+
+        private void a3SKey_Click(object sender, EventArgs e)
+        {
+            as3Sound.Stop();
+            as3Sound.Play();
         }
     }
 }

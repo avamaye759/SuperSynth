@@ -66,7 +66,7 @@
             // 
             // pianoBase
             // 
-            this.pianoBase.BackColor = System.Drawing.Color.OrangeRed;
+            this.pianoBase.BackColor = System.Drawing.Color.Coral;
             this.pianoBase.Location = new System.Drawing.Point(61, 32);
             this.pianoBase.Name = "pianoBase";
             this.pianoBase.Size = new System.Drawing.Size(679, 288);
@@ -76,6 +76,7 @@
             // 
             this.c1Key.BackColor = System.Drawing.Color.Snow;
             this.c1Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.c1Key.Cursor = System.Windows.Forms.Cursors.Hand;
             this.c1Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c1Key.ForeColor = System.Drawing.Color.OldLace;
             this.c1Key.Location = new System.Drawing.Point(92, 124);
@@ -88,6 +89,8 @@
             // 
             this.d1Key.BackColor = System.Drawing.Color.Snow;
             this.d1Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.d1Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.d1Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d1Key.ForeColor = System.Drawing.Color.OldLace;
             this.d1Key.Location = new System.Drawing.Point(136, 124);
             this.d1Key.Name = "d1Key";
@@ -99,6 +102,8 @@
             // 
             this.e1Key.BackColor = System.Drawing.Color.Snow;
             this.e1Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.e1Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.e1Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e1Key.ForeColor = System.Drawing.Color.OldLace;
             this.e1Key.Location = new System.Drawing.Point(180, 124);
             this.e1Key.Name = "e1Key";
@@ -110,6 +115,8 @@
             // 
             this.f1Key.BackColor = System.Drawing.Color.Snow;
             this.f1Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.f1Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f1Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f1Key.ForeColor = System.Drawing.Color.OldLace;
             this.f1Key.Location = new System.Drawing.Point(224, 124);
             this.f1Key.Name = "f1Key";
@@ -121,6 +128,8 @@
             // 
             this.g1Key.BackColor = System.Drawing.Color.Snow;
             this.g1Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.g1Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.g1Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.g1Key.ForeColor = System.Drawing.Color.OldLace;
             this.g1Key.Location = new System.Drawing.Point(268, 124);
             this.g1Key.Name = "g1Key";
@@ -132,6 +141,8 @@
             // 
             this.a2Key.BackColor = System.Drawing.Color.Snow;
             this.a2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.a2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.a2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a2Key.ForeColor = System.Drawing.Color.OldLace;
             this.a2Key.Location = new System.Drawing.Point(312, 124);
             this.a2Key.Name = "a2Key";
@@ -143,6 +154,8 @@
             // 
             this.b2Key.BackColor = System.Drawing.Color.Snow;
             this.b2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.b2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b2Key.ForeColor = System.Drawing.Color.OldLace;
             this.b2Key.Location = new System.Drawing.Point(356, 124);
             this.b2Key.Name = "b2Key";
@@ -154,6 +167,8 @@
             // 
             this.c2Key.BackColor = System.Drawing.Color.Snow;
             this.c2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.c2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.c2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c2Key.ForeColor = System.Drawing.Color.OldLace;
             this.c2Key.Location = new System.Drawing.Point(400, 124);
             this.c2Key.Name = "c2Key";
@@ -165,6 +180,8 @@
             // 
             this.d2Key.BackColor = System.Drawing.Color.Snow;
             this.d2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.d2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.d2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d2Key.ForeColor = System.Drawing.Color.OldLace;
             this.d2Key.Location = new System.Drawing.Point(444, 124);
             this.d2Key.Name = "d2Key";
@@ -176,6 +193,8 @@
             // 
             this.e2Key.BackColor = System.Drawing.Color.Snow;
             this.e2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.e2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.e2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.e2Key.ForeColor = System.Drawing.Color.OldLace;
             this.e2Key.Location = new System.Drawing.Point(488, 124);
             this.e2Key.Name = "e2Key";
@@ -187,6 +206,8 @@
             // 
             this.f2Key.BackColor = System.Drawing.Color.Snow;
             this.f2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.f2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f2Key.ForeColor = System.Drawing.Color.OldLace;
             this.f2Key.Location = new System.Drawing.Point(532, 124);
             this.f2Key.Name = "f2Key";
@@ -198,6 +219,8 @@
             // 
             this.g2Key.BackColor = System.Drawing.Color.Snow;
             this.g2Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.g2Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.g2Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.g2Key.ForeColor = System.Drawing.Color.OldLace;
             this.g2Key.Location = new System.Drawing.Point(576, 124);
             this.g2Key.Name = "g2Key";
@@ -209,6 +232,8 @@
             // 
             this.a3Key.BackColor = System.Drawing.Color.Snow;
             this.a3Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.a3Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.a3Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a3Key.ForeColor = System.Drawing.Color.OldLace;
             this.a3Key.Location = new System.Drawing.Point(620, 124);
             this.a3Key.Name = "a3Key";
@@ -220,6 +245,8 @@
             // 
             this.b3Key.BackColor = System.Drawing.Color.Snow;
             this.b3Key.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.b3Key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b3Key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b3Key.ForeColor = System.Drawing.Color.OldLace;
             this.b3Key.Location = new System.Drawing.Point(664, 124);
             this.b3Key.Name = "b3Key";
@@ -231,127 +258,154 @@
             // 
             this.c1SKey.BackColor = System.Drawing.Color.Black;
             this.c1SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.c1SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.c1SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c1SKey.ForeColor = System.Drawing.Color.DimGray;
             this.c1SKey.Location = new System.Drawing.Point(125, 123);
             this.c1SKey.Name = "c1SKey";
             this.c1SKey.Size = new System.Drawing.Size(23, 116);
             this.c1SKey.TabIndex = 15;
+            this.c1SKey.Click += new System.EventHandler(this.c1SKey_Click);
             // 
             // d1SKey
             // 
             this.d1SKey.BackColor = System.Drawing.Color.Black;
             this.d1SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.d1SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.d1SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d1SKey.ForeColor = System.Drawing.Color.DimGray;
             this.d1SKey.Location = new System.Drawing.Point(169, 124);
             this.d1SKey.Name = "d1SKey";
             this.d1SKey.Size = new System.Drawing.Size(23, 116);
             this.d1SKey.TabIndex = 16;
+            this.d1SKey.Click += new System.EventHandler(this.d1SKey_Click);
             // 
             // f1SKey
             // 
             this.f1SKey.BackColor = System.Drawing.Color.Black;
             this.f1SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.f1SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.f1SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f1SKey.ForeColor = System.Drawing.Color.DimGray;
             this.f1SKey.Location = new System.Drawing.Point(257, 123);
             this.f1SKey.Name = "f1SKey";
             this.f1SKey.Size = new System.Drawing.Size(23, 116);
             this.f1SKey.TabIndex = 17;
+            this.f1SKey.Click += new System.EventHandler(this.f1SKey_Click);
             // 
             // g1SKey
             // 
             this.g1SKey.BackColor = System.Drawing.Color.Black;
             this.g1SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.g1SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.g1SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.g1SKey.ForeColor = System.Drawing.Color.DimGray;
             this.g1SKey.Location = new System.Drawing.Point(301, 123);
             this.g1SKey.Name = "g1SKey";
             this.g1SKey.Size = new System.Drawing.Size(23, 116);
             this.g1SKey.TabIndex = 18;
+            this.g1SKey.Click += new System.EventHandler(this.g1SKey_Click);
             // 
             // a2SKey
             // 
             this.a2SKey.BackColor = System.Drawing.Color.Black;
             this.a2SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.a2SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.a2SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a2SKey.ForeColor = System.Drawing.Color.DimGray;
             this.a2SKey.Location = new System.Drawing.Point(345, 123);
             this.a2SKey.Name = "a2SKey";
             this.a2SKey.Size = new System.Drawing.Size(23, 116);
             this.a2SKey.TabIndex = 19;
+            this.a2SKey.Click += new System.EventHandler(this.a2SKey_Click);
             // 
             // c2SKey
             // 
             this.c2SKey.BackColor = System.Drawing.Color.Black;
             this.c2SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.c2SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.c2SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.c2SKey.ForeColor = System.Drawing.Color.DimGray;
             this.c2SKey.Location = new System.Drawing.Point(433, 123);
             this.c2SKey.Name = "c2SKey";
             this.c2SKey.Size = new System.Drawing.Size(23, 116);
             this.c2SKey.TabIndex = 20;
+            this.c2SKey.Click += new System.EventHandler(this.c2SKey_Click);
             // 
             // d2SKey
             // 
             this.d2SKey.BackColor = System.Drawing.Color.Black;
             this.d2SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.d2SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.d2SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.d2SKey.ForeColor = System.Drawing.Color.DimGray;
             this.d2SKey.Location = new System.Drawing.Point(477, 123);
             this.d2SKey.Name = "d2SKey";
             this.d2SKey.Size = new System.Drawing.Size(23, 116);
             this.d2SKey.TabIndex = 21;
+            this.d2SKey.Click += new System.EventHandler(this.d2SKey_Click);
             // 
             // f2SKey
             // 
             this.f2SKey.BackColor = System.Drawing.Color.Black;
             this.f2SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.f2SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.f2SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f2SKey.ForeColor = System.Drawing.Color.DimGray;
             this.f2SKey.Location = new System.Drawing.Point(565, 123);
             this.f2SKey.Name = "f2SKey";
             this.f2SKey.Size = new System.Drawing.Size(23, 116);
             this.f2SKey.TabIndex = 22;
+            this.f2SKey.Click += new System.EventHandler(this.f2SKey_Click);
             // 
             // g2SKey
             // 
             this.g2SKey.BackColor = System.Drawing.Color.Black;
             this.g2SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.g2SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.g2SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.g2SKey.ForeColor = System.Drawing.Color.DimGray;
             this.g2SKey.Location = new System.Drawing.Point(609, 123);
             this.g2SKey.Name = "g2SKey";
             this.g2SKey.Size = new System.Drawing.Size(23, 116);
             this.g2SKey.TabIndex = 23;
+            this.g2SKey.Click += new System.EventHandler(this.g2SKey_Click);
             // 
             // a3SKey
             // 
             this.a3SKey.BackColor = System.Drawing.Color.Black;
             this.a3SKey.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.a3SKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.a3SKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a3SKey.ForeColor = System.Drawing.Color.DimGray;
             this.a3SKey.Location = new System.Drawing.Point(653, 124);
             this.a3SKey.Name = "a3SKey";
             this.a3SKey.Size = new System.Drawing.Size(23, 116);
             this.a3SKey.TabIndex = 24;
+            this.a3SKey.Click += new System.EventHandler(this.a3SKey_Click);
             // 
             // powerButton
             // 
+            this.powerButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.powerButton.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.powerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.powerButton.Location = new System.Drawing.Point(92, 72);
+            this.powerButton.Font = new System.Drawing.Font("Haettenschweiler", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.powerButton.ForeColor = System.Drawing.Color.White;
+            this.powerButton.Location = new System.Drawing.Point(92, 69);
+            this.powerButton.Margin = new System.Windows.Forms.Padding(2);
             this.powerButton.Name = "powerButton";
-            this.powerButton.Size = new System.Drawing.Size(37, 18);
+            this.powerButton.Size = new System.Drawing.Size(43, 25);
             this.powerButton.TabIndex = 25;
+            this.powerButton.Text = "POWER";
             this.powerButton.UseVisualStyleBackColor = true;
             this.powerButton.Click += new System.EventHandler(this.powerButton_Click);
             // 
             // synthButton
             // 
-            this.synthButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.synthButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.synthButton.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.synthButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.synthButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.synthButton.Font = new System.Drawing.Font("Haettenschweiler", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.synthButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.synthButton.Location = new System.Drawing.Point(195, 69);
             this.synthButton.Name = "synthButton";
@@ -362,9 +416,10 @@
             // 
             // chipButton
             // 
-            this.chipButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.chipButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chipButton.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.chipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chipButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chipButton.Font = new System.Drawing.Font("Haettenschweiler", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chipButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.chipButton.Location = new System.Drawing.Point(284, 69);
             this.chipButton.Name = "chipButton";
@@ -375,9 +430,10 @@
             // 
             // drumButton
             // 
-            this.drumButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.drumButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.drumButton.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
             this.drumButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.drumButton.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drumButton.Font = new System.Drawing.Font("Haettenschweiler", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.drumButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.drumButton.Location = new System.Drawing.Point(373, 69);
             this.drumButton.Name = "drumButton";
@@ -390,7 +446,7 @@
             // powerInd
             // 
             this.powerInd.BackColor = System.Drawing.Color.Brown;
-            this.powerInd.Location = new System.Drawing.Point(135, 76);
+            this.powerInd.Location = new System.Drawing.Point(140, 76);
             this.powerInd.Name = "powerInd";
             this.powerInd.Size = new System.Drawing.Size(10, 10);
             this.powerInd.TabIndex = 29;
@@ -418,12 +474,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 367);
-            this.Controls.Add(this.drumInd);
-            this.Controls.Add(this.powerInd);
-            this.Controls.Add(this.drumButton);
-            this.Controls.Add(this.chipButton);
-            this.Controls.Add(this.synthButton);
-            this.Controls.Add(this.powerButton);
             this.Controls.Add(this.a3SKey);
             this.Controls.Add(this.g2SKey);
             this.Controls.Add(this.f2SKey);
@@ -434,6 +484,12 @@
             this.Controls.Add(this.f1SKey);
             this.Controls.Add(this.d1SKey);
             this.Controls.Add(this.c1SKey);
+            this.Controls.Add(this.drumInd);
+            this.Controls.Add(this.powerInd);
+            this.Controls.Add(this.drumButton);
+            this.Controls.Add(this.chipButton);
+            this.Controls.Add(this.synthButton);
+            this.Controls.Add(this.powerButton);
             this.Controls.Add(this.b3Key);
             this.Controls.Add(this.a3Key);
             this.Controls.Add(this.g2Key);
@@ -451,7 +507,6 @@
             this.Controls.Add(this.pianoBase);
             this.Name = "Form1";
             this.Text = "SUPERSYNTH 3000";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
 
         }
