@@ -10,6 +10,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading;
 
 namespace SuperSynth
 {
@@ -18,6 +19,7 @@ namespace SuperSynth
         string power = "off";
         string drum = "off";
 
+        //global media players
         System.Windows.Media.MediaPlayer c1Sound = new System.Windows.Media.MediaPlayer();
         System.Windows.Media.MediaPlayer d1Sound = new System.Windows.Media.MediaPlayer();
         System.Windows.Media.MediaPlayer e1Sound = new System.Windows.Media.MediaPlayer();
@@ -42,12 +44,13 @@ namespace SuperSynth
         System.Windows.Media.MediaPlayer fs2Sound = new System.Windows.Media.MediaPlayer();
         System.Windows.Media.MediaPlayer gs1Sound = new System.Windows.Media.MediaPlayer();
         System.Windows.Media.MediaPlayer gs2Sound = new System.Windows.Media.MediaPlayer();
-
-
+        System.Windows.Media.MediaPlayer drumSound = new System.Windows.Media.MediaPlayer();
+        
         public Form1()
         {
             InitializeComponent();
 
+            //setting media players
             c1Sound.Open(new Uri(Application.StartupPath + "/Resources/c3.wav"));
             d1Sound.Open(new Uri(Application.StartupPath + "/Resources/d3.wav"));
             e1Sound.Open(new Uri(Application.StartupPath + "/Resources/e3.wav"));
@@ -72,37 +75,209 @@ namespace SuperSynth
             fs2Sound.Open(new Uri(Application.StartupPath + "/Resources/fs4.wav"));
             gs1Sound.Open(new Uri(Application.StartupPath + "/Resources/gs3.wav"));
             gs2Sound.Open(new Uri(Application.StartupPath + "/Resources/gs4.wav"));
+            drumSound.Open(new Uri(Application.StartupPath + "/Resources/drum.wav"));
+
+            powerInd.BackColor = Color.Brown;
+            c1Key.Enabled = false;
+            c2Key.Enabled = false;
+            d1Key.Enabled = false;
+            d2Key.Enabled = false;
+            e1Key.Enabled = false;
+            e2Key.Enabled = false;
+            f1Key.Enabled = false;
+            f2Key.Enabled = false;
+            g1Key.Enabled = false;
+            g2Key.Enabled = false;
+            a2Key.Enabled = false;
+            a3Key.Enabled = false;
+            b2Key.Enabled = false;
+            b3Key.Enabled = false;
+            cS1Key.Enabled = false;
+            cS2Key.Enabled = false;
+            dS1Key.Enabled = false;
+            dS2Key.Enabled = false;
+            fS1Key.Enabled = false;
+            fS2Key.Enabled = false;
+            gS1Key.Enabled = false;
+            gS2Key.Enabled = false;
+            aS2Key.Enabled = false;
+            aS3Key.Enabled = false;
         }
 
+       
         private void Form1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
-
+            switch (e.KeyCode)
+            {
+                case Keys.A:
+                    c1Sound.Stop();
+                    c1Sound.Play();
+                    break;
+                case Keys.W:
+                    cs1Sound.Stop();
+                    cs1Sound.Play();
+                    break;
+                case Keys.S:
+                    d1Sound.Stop();
+                    d1Sound.Play();
+                    break;
+                case Keys.E:
+                    ds1Sound.Stop();
+                    ds1Sound.Play();
+                    break;
+                case Keys.D:
+                    e1Sound.Stop();
+                    e1Sound.Play();
+                    break;
+                case Keys.F:
+                    f1Sound.Stop();
+                    f1Sound.Play();
+                    break;
+                case Keys.T:
+                    fs1Sound.Stop();
+                    fs1Sound.Play();
+                    break;
+                case Keys.G:
+                    g1Sound.Stop();
+                    g1Sound.Play();
+                    break;
+                case Keys.Y:
+                    gs1Sound.Stop();
+                    gs1Sound.Play();
+                    break;
+                case Keys.H:
+                    a2Sound.Stop();
+                    a2Sound.Play();
+                    break;
+                case Keys.U:
+                    as2Sound.Stop();
+                    as2Sound.Play();
+                    break;
+                case Keys.J:
+                    b2Sound.Stop();
+                    b2Sound.Play();
+                    break;
+                case Keys.K:
+                    c2Sound.Stop();
+                    c2Sound.Play();
+                    break;
+                case Keys.O:
+                    cs2Sound.Stop();
+                    cs2Sound.Play();
+                    break;
+                case Keys.L:
+                    d2Sound.Stop();
+                    d2Sound.Play();
+                    break;
+                case Keys.P:
+                    ds2Sound.Stop();
+                    ds2Sound.Play();
+                    break;
+                case Keys.Z:
+                    e2Sound.Stop();
+                    e2Sound.Play();
+                    break;
+                case Keys.X:
+                    f2Sound.Stop();
+                    f2Sound.Play();
+                    break;
+                case Keys.C:
+                    fs2Sound.Stop();
+                    fs2Sound.Play();
+                    break;
+                case Keys.V:
+                    g2Sound.Stop();
+                    g2Sound.Play();
+                    break;
+                case Keys.B:
+                    gs2Sound.Stop();
+                    gs2Sound.Play();
+                    break;
+                case Keys.N:
+                    a3Sound.Stop();
+                    a3Sound.Play();
+                    break;
+                case Keys.M:
+                    as3Sound.Stop();
+                    as3Sound.Play();
+                    break;
+                case Keys.R:
+                    b3Sound.Stop();
+                    b3Sound.Play();
+                    break;
+            }
         }
 
         private void powerButton_Click(object sender, EventArgs e)
         {
           if (power == "off")
           {
-              power = "on";
-              powerLoop.Enabled = true;
-              powerInd.BackColor = System.Drawing.Color.Red;
+                power = "on";
+                powerInd.BackColor = Color.Red;
+                c1Key.Enabled = true;
+                c2Key.Enabled = true;
+                d1Key.Enabled = true;
+                d2Key.Enabled = true;
+                e1Key.Enabled = true;
+                e2Key.Enabled = true;
+                f1Key.Enabled = true;
+                f2Key.Enabled = true;
+                g1Key.Enabled = true;
+                g2Key.Enabled = true;
+                a2Key.Enabled = true;
+                a3Key.Enabled = true;
+                b2Key.Enabled = true;
+                b3Key.Enabled = true;
+                cS1Key.Enabled = true;
+                cS2Key.Enabled = true;
+                dS1Key.Enabled = true;
+                dS2Key.Enabled = true;
+                fS1Key.Enabled = true;
+                fS2Key.Enabled = true;
+                gS1Key.Enabled = true;
+                gS2Key.Enabled = true;
+                aS2Key.Enabled = true;
+                aS3Key.Enabled = true;
           }
           else if (power == "on")
           {
-              power = "off";
-              powerLoop.Enabled = false;
-              powerInd.BackColor= System.Drawing.Color.Brown;
-          }
-        }
-
-        private void powerLoop_Tick(object sender, EventArgs e)
-        {
-
+                power = "off";
+                powerInd.BackColor = Color.Brown;
+                drumLoop.Enabled = false;
+                drumInd.BackColor = Color.Brown;
+                c1Key.Enabled = false;
+                c2Key.Enabled = false;
+                d1Key.Enabled = false;
+                d2Key.Enabled = false;
+                e1Key.Enabled = false;
+                e2Key.Enabled = false;
+                f1Key.Enabled = false;
+                f2Key.Enabled = false;
+                g1Key.Enabled = false;
+                g2Key.Enabled = false;
+                a2Key.Enabled = false;
+                a3Key.Enabled = false;
+                b2Key.Enabled = false;
+                b3Key.Enabled = false;
+                cS1Key.Enabled = false;
+                cS2Key.Enabled = false;
+                dS1Key.Enabled = false;
+                dS2Key.Enabled = false;
+                fS1Key.Enabled = false;
+                fS2Key.Enabled = false;
+                gS1Key.Enabled = false;
+                gS2Key.Enabled = false;
+                aS2Key.Enabled = false;
+                aS3Key.Enabled = false;
+            }
         }
 
         private void drumLoop_Tick(object sender, EventArgs e)
         {
-
+            Thread.Sleep(1);
+            Refresh();
+            drumSound.Stop();
+            drumSound.Play();
         }
 
         private void drumButton_Click(object sender, EventArgs e)
@@ -111,13 +286,15 @@ namespace SuperSynth
             {
                 drum = "on";
                 drumLoop.Enabled = true;
-                drumInd.BackColor = System.Drawing.Color.Red;
+                drumInd.BackColor = Color.Red;
+                //BE QUIET, DRUM!!!!!
+                drumSound.Volume = 0.2;
             }
             else if (power == "on" && drum == "on")
             {
                 drum = "off";
                 drumLoop.Enabled = false;
-                drumInd.BackColor= System.Drawing.Color.Brown;
+                drumInd.BackColor= Color.Brown;
             }
         }
 
@@ -205,61 +382,61 @@ namespace SuperSynth
             b3Sound.Play();
         }
 
-        private void c1SKey_Click(object sender, EventArgs e)
+        private void cS1Key_Click(object sender, EventArgs e)
         {
             cs1Sound.Stop();
             cs1Sound.Play();
         }
 
-        private void d1SKey_Click(object sender, EventArgs e)
+        private void dS1Key_Click(object sender, EventArgs e)
         {
             ds1Sound.Stop();
             ds1Sound.Play();
         }
 
-        private void f1SKey_Click(object sender, EventArgs e)
+        private void fS1Key_Click(object sender, EventArgs e)
         {
             fs1Sound.Stop();
             fs1Sound.Play();
         }
 
-        private void g1SKey_Click(object sender, EventArgs e)
+        private void gS1Key_Click(object sender, EventArgs e)
         {
             gs1Sound.Stop();
             gs1Sound.Play();
         }
 
-        private void a2SKey_Click(object sender, EventArgs e)
+        private void aS2Key_Click(object sender, EventArgs e)
         {
             as2Sound.Stop();
             as2Sound.Play();
         }
 
-        private void c2SKey_Click(object sender, EventArgs e)
+        private void cS2Key_Click(object sender, EventArgs e)
         {
             cs2Sound.Stop();
             cs2Sound.Play();
         }
 
-        private void d2SKey_Click(object sender, EventArgs e)
+        private void dS2Key_Click(object sender, EventArgs e)
         {
             ds2Sound.Stop();
             ds2Sound.Play();
         }
 
-        private void f2SKey_Click(object sender, EventArgs e)
+        private void fS2Key_Click(object sender, EventArgs e)
         {
             fs2Sound.Stop();
             fs2Sound.Play();
         }
 
-        private void g2SKey_Click(object sender, EventArgs e)
+        private void gS2Key_Click(object sender, EventArgs e)
         {
             gs2Sound.Stop();
             gs2Sound.Play();
         }
 
-        private void a3SKey_Click(object sender, EventArgs e)
+        private void aS3Key_Click(object sender, EventArgs e)
         {
             as3Sound.Stop();
             as3Sound.Play();

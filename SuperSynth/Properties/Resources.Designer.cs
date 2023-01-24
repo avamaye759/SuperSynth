@@ -171,6 +171,15 @@ namespace SuperSynth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream drum {
+            get {
+                return ResourceManager.GetStream("drum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream ds3 {
             get {
                 return ResourceManager.GetStream("ds3", resourceCulture);
